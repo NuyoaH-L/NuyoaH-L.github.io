@@ -21,3 +21,17 @@
 
 <!--不蒜子页面统计-->
 <script async="async" src='https://cdn.jsdelivr.net/npm/busuanzi@2.3.0'></script>
+
+<!--搜索-->
+<script src="/asserts/js/simple-jekyll-search.min.js"></script>
+<script>
+  SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/asserts/json/search.json',
+      searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+      noResultsText: '没有搜索到文章',
+      limit: 20,
+      fuzzy: false
+    })
+</script>
