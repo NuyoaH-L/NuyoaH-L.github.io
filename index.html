@@ -28,7 +28,7 @@ layout: default
     <div class="post-meta">
         <i data-feather="edit-3"></i> {% if post.author %}{{ post.author }}{% else %}{{
             site.owner.name }}{% endif %} <i data-feather="calendar"></i> {{ post.date | date: "%Y年%m月%d日" }}
-            <i data-feather="clock"></i>{{ post.content | strip_html | strip_newlines | remove: " " | size }} 字
+            <i data-feather="italic"></i>{{ post.content | strip_html | strip_newlines | remove: " " | size }} 字
     </div>
 </div>
 {% endif %}{% endfor %}
