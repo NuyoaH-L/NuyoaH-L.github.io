@@ -49,3 +49,12 @@ timezone: Asia/Shanghai
 
 # Gems
 plugins: [jekyll-paginate]
+
+# Gitalk评论插件
+comments :
+  gitalk :
+    clientID : 32769a5409affbe8a2a9  # 获取到的clientID
+    clientSecret : 77cb212cbc282f4738fcd78d246a5275c0c88db7  # 获取到的clientSecret
+    repo : pinglun  # 存放评论的仓库
+    owner : NuyoaH-L  #仓库的主人
+    admin : NuyoaH-L
