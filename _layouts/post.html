@@ -10,7 +10,7 @@ layout: default
        <i data-feather="calendar"></i>{{ page.date | date: "%Y年%m月%d日" }}
        <i data-feather="italic"></i>{{ page.content | strip_html | strip_newlines | remove: " " | size }}字
        <i data-feather="clock"></i>{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 250 | plus: 1 }}分
-       <i data-feather="eye"></i><span id="busuanzi_value_page_pv"><i class="fas fa-spinner fa-pulse"></i></span>次
+       <i data-feather="eye"></i><span id="busuanzi_value_page_pv"><i data-feater="loader"></i></span>次
        <i data-feather="edit"></i> {% if post.author %}{{ post.author }}{% else %}{{ site.owner.name }}{% endif %}
     </span>
 </div>
