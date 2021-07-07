@@ -117,7 +117,9 @@
 </div>
 
 <div class="card card-musicbox">
+    <!-- <audio id="player"><source src="{{ site.music.url }}" type="audio/mp3" /></audio> -->
     <audio id="player"><source src="https://sharefs.ali.kugou.com/202107071807/1a18d70e3619e20f258b40f4f0a04c6e/G101/M09/17/09/pQ0DAFkDTfCAeBu1ADFRejz5L0Y461.mp3" type="audio/mp3" /></audio>
+    <!-- <div class="title" style="padding-bottom: 1rem">{{ site.music.title }}</div> -->
     <div class="title" style="padding-bottom: 1rem">Sway - Syn Cole</div>
     <div class="music-controls paused">
         <!--span class="backward"><i data-feather="chevrons-left"></i></span-->
@@ -131,24 +133,6 @@
         </div>
     </div>
 </div>
-
-<!--
-  <div class="card card-musicbox">
-      <audio id="player"><source src="{{ site.music.url }}" type="audio/mp3" /></audio>
-      <div class="title" style="padding-bottom: 1rem">{{ site.music.title }}</div>
-      <div class="music-controls paused">
-          <!--span class="backward"><i data-feather="chevrons-left"></i></span-->
-          <span class="pause"><i data-feather="pause"></i></span>
-          <span class="play"><i data-feather="play"></i></span>
-          <!--span class="forward"><i data-feather="chevrons-right"></i></span-->
-          <span class="loading" style="display:none"><i data-feather="loader"></i></span>
-          <div class="progress">
-              <div class="progress-bar" role="progressbar"></div>
-            <div class="progress-bar" role="progressbar" style="background-color: rgba(0,123,255,0.2)"></div>
-          </div>
-      </div>
-  </div>
--->
 
 {% if page.layout == 'post' %}
 <div class="card card-toc">
