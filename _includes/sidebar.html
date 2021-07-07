@@ -50,6 +50,24 @@
 {% endif %}
 </div>
 
+<div class="card card-site-meta">
+    <div class="title"><i class="fas fa-cog fa-spin fa-fw"></i>本站持续运行了</div>
+    <div>
+      <span id="run_time_day">
+        <i class="fas fa-spinner fa-pulse"></i>
+      </span>天
+      <span id="run_time_hour">
+        <i class="fas fa-spinner fa-pulse"></i>
+      </span>时
+      <span id="run_time_minute">
+        <i class="fas fa-spinner fa-pulse"></i>
+      </span>分
+      <span id="run_time_second">
+        <i class="fas fa-spinner fa-pulse"></i>
+      </span>秒
+      <srript src="https://gist.githubusercontent.com/NuyoaH-L/224d287777d163483a8dbc9fab326263/raw/3746930e37fc2369e0cf4880f2f98f062b61eba4/%25E8%25AE%25A1%25E6%2597%25B6">
+</div>
+
 <div class="card card-musicbox">
     <audio id="player"><source src="{{ site.music.url }}" type="audio/mp3" /></audio>
     <div class="title" style="padding-bottom: 1rem">{{ site.music.title }}</div>
