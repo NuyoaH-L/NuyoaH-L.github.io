@@ -1,3 +1,29 @@
+<!--Fortawesome图标-->
+<script async="async" src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/js/all.min.js"></script>
+
+<!--不蒜子页面统计-->
+<script async="async" src='https://cdn.jsdelivr.net/npm/busuanzi@2.3.0'></script>
+
+<!--一言API-->
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+
+<!--Feather Icon-->
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+<!--搜索-->
+<script src="/asserts/js/simple-jekyll-search.min.js"></script>
+<script>
+  SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/asserts/json/search.json',
+      searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+      noResultsText: '没有搜索到文章',
+      limit: 20,
+      fuzzy: false
+    })
+</script>
+
 <!--百度自动推送-->
 <script>
   ;(function () {
@@ -36,30 +62,3 @@ var _hmt = _hmt || [];
 
   gtag('config', 'G-7YTR9TKRXT');
 </script>
-
-<!--Fortawesome图标-->
-<script async="async" src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/js/all.min.js"></script>
-
-<!--不蒜子页面统计-->
-<script async="async" src='https://cdn.jsdelivr.net/npm/busuanzi@2.3.0'></script>
-
-<!--一言API-->
-<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-
-<!--Feather Icon-->
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-
-<!--搜索-->
-<script src="/asserts/js/simple-jekyll-search.min.js"></script>
-<script>
-  SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/asserts/json/search.json',
-      searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-      noResultsText: '没有搜索到文章',
-      limit: 20,
-      fuzzy: false
-    })
-</script>
-
