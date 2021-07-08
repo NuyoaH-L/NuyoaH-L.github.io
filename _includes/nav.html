@@ -27,7 +27,7 @@
 
 
     <div class="site-control">
-        <div data-tab="navigation" class="active">
+        <i class="fas fa-compass" class="active">
             <nav class="nav flex-column nav-pills">
                 <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="/">首页</a>
                 {% for nav in site.pages %}{% if nav.title %}
@@ -35,12 +35,12 @@
                 {% endif %}{% endfor %}
             </nav>
         </div>
-        <div data-tab="folder">
+        <i class="fas fa-folder">
             <nav class="nav flex-column nav-pills">
                 <a class="nav-link {% if page.url == '/archive/' %}active{% endif %}" href="/archive/">文章归档</a>
             </nav>
         </div>
-        <div data-tab="setting">
+        <i class="fas fa-setting">
             <div class="title">主题</div>
             <div class="theme-control row">
                 <div class="col"><div class=""></div></div>
